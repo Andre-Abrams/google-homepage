@@ -1,0 +1,108 @@
+html, body {
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 17px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+button.signIn{
+    margin: -5px 0 0 15px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 0%;
+    display: inline-block;
+}
+
+button:hover{
+    border: 1px solid grey;
+}
+
+ul{
+    list-style-type: none;
+    margin: 20px 0px 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding-left: 15px;
+    opacity: 0.75;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding-bottom: 15px;
+}
+
+#navbar{
+    position: relative;
+}
+.container{
+    width: 100%;
+    min-height:100%;
+}
+.right{
+    float: right;
+}
+.logsearch{
+    position: fixed;
+    top: 25.19%;
+    left: 48.45%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+#search{
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 185%;
+    margin-top: 22px;
+    margin-left: -150px;
+    padding-left: 65px;
+    font-size: 16px;
+}
+
+#search:hover{
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+.search{
+    position: relative;
+}
+.search .icon{
+    position: absolute;
+    top: 35px;
+    left: -115px;
+    opacity: 0.7;
+}
